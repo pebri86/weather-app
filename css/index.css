@@ -1,0 +1,73 @@
+/* Global Settings */
+/* Weather Data Styles */
+body{
+ 
+/************* PLEASE REPLACE "sky.jpg" WITH YOUR BACKGROUND IMAGE NAME plus ".jpg" if jpeg image.***************************/
+background: url(../img/background/sky.jpg) no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+background-size: cover;
+ 
+ 
+}
+h2{margin-bottom: 0.5em; text-align: center;}
+ 
+.ui-header{
+background-color: rgba(255, 255, 255, 0.7);
+}
+.ui-footer{
+background-color: rgba(255, 255, 255, 0.7);
+}
+#main_div {
+margin: 0 auto;
+text-align: left;
+padding-left:10px;
+font-family: ubuntu, helvetica, arial;
+font-weight:bold;
+font-size: 0.8em;
+border: 1px solid rgba(0, 0, 0, 1.0);
+background-color: rgba(255, 255, 255, 0.7);
+height: 190px;
+width: 95%;
+margin-top: 15px;
+}
+#my_info {
+margin: 0 auto;
+text-align: left;
+padding-left:10px;
+font-family: ubuntu, helvetica, arial;
+font-weight:bold;
+font-size: 1em;
+background-color: rgba(255, 255, 255, 0.7);
+height: 190px;
+width: 95%;
+margin-top: 15px;
+}
+.icon {
+float:right;
+padding-left:10px;
+margin-top: -0.4em;
+width: 150px;
+height: 125px;
+}
+ 
+#toggle {padding: 0em 2em;float: left;}
+#metric {border-top-left-radius: .3em;border-bottom-left-radius: .3em;}
+#imperial {margin-left: 2em; margin-left: -.20em;border-top-right-radius: .3em;border-bottom-right-radius: .3em;}
+#units{
+text-align: left;
+font-size: 1.3em;
+font-weight:bold;
+ 
+}
+#temp{
+text-align: left;
+font-size: 1.3em;
+font-weight:bold;
+}
+#description{
+text-align: left;
+font-size: 1.3em;
+font-weight:bold;
+ 
+}
