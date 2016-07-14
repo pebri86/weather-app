@@ -3,7 +3,7 @@
         xmlns:cdv="http://cordova.apache.org/ns/1.0"
         xmlns:android = "http://schemas.android.com/apk/res/android"
         id          = "info.pebri.weatherapp"
-        versionCode = "23"
+        versionCode = "10"
         version     = "1.1.0">
  
     <name>Simple Weather App</name>
@@ -23,5 +23,9 @@
     <feature name="http://api.phonegap.com/1.0/media"/>
     <feature name="http://api.phonegap.com/1.0/network"/>
     <feature name="http://api.phonegap.com/1.0/notification"/>
+    
+    <platform name="android">
+        <preference name="android-targetSdkVersion" value="22"/>
+    </platform>
  
 </widget>
